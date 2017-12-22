@@ -9,7 +9,13 @@ body {
 
 .pokemon-single {
 	border: 1px solid black;
-	max-width: 100px;
+	border-radius: 5px;
+	max-width: 120px;
 	float: left;
 	margin-right: 15px;
+	padding: 10px;
+}
+
+.pokemon-single:hover {
+	
 }
