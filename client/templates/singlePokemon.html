@@ -1,8 +1,7 @@
 <template name="singlePokemon">
-  <div class="pokemon-single">
-    <div class="pokemon-content">
-      <span>{{name}} - #{{pokedex}}</span>
-	  <img alt="{{name}}" src="{{url}}"/>
+  <div class="pokemon-single" style="background:url({{image_url}}) no-repeat center">
+    <div class="overlay">
+      <span class="pokedex">#{{id}}</span>
     </div>
   </div>
 </template>
